@@ -1,0 +1,37 @@
+{
+  "name": "renting-platform",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start"
+  },
+  "dependencies": {
+    "@primno/dpapi": "^2.0.1",
+    "axios": "^1.11.0",
+    "better-sqlite3": "^12.2.0",
+    "bootstrap": "^5.3.8",
+    "framer-motion": "^12.23.24",
+    "node-machine-id": "^1.1.12",
+    "react-bootstrap": "^2.10.10",
+    "react-router-dom": "^7.9.4",
+    "react-scripts": "^5.0.1",
+    "socket.io-client": "^4.8.1",
+    "swiper": "^12.0.3"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
